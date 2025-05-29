@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{66c61d01-3fc3-41ee-9565-e377604c2cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{b67c1fa9-705b-49b7-8bd6-a90ce5a75178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{5eec656b-3a05-4836-8387-6ec20d1c90bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\GameScene">
+      <UniqueIdentifier>{adb850d6-de26-4de7-89db-2a27fcdee6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{8b7a1bbc-b1e2-4060-9b7f-c45e591123ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\ResultScene">
+      <UniqueIdentifier>{3d735c42-bfd2-42e3-afb5-f560cfb863da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Sound">
+      <UniqueIdentifier>{9ebb5849-4328-4d41-afbf-53387fef9a3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{5dcd45c5-a21c-4570-b8df-9db8054c3c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\CommandSelectScene">
+      <UniqueIdentifier>{75f4c8ef-e597-4375-a939-e5d56426084c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneController.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scenes\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Scenes\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Scenes\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Scenes\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionCheck.cpp">
+      <Filter>Scenes\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>Scenes\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeManager.cpp">
+      <Filter>Scenes\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandSelectScene.cpp">
+      <Filter>Scenes\CommandSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Scenes\CommandSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="BGM.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SE.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Chara.cpp">
+      <Filter>Scenes\CommandSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneBase.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneController.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Scenes\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Scenes\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Scenes\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Scenes\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionCheck.h">
+      <Filter>Scenes\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackInfo.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>Scenes\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeManager.h">
+      <Filter>Scenes\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Scenes\CommandSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="BGM.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SE.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandSelectScene.h">
+      <Filter>Scenes\CommandSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Chara.h">
+      <Filter>Scenes\CommandSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>General</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ColorfulFighter2.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\GameIcon\GameIcon.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
