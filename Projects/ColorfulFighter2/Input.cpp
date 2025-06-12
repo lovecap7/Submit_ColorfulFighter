@@ -186,10 +186,12 @@ void Input::Update()
 	GetHitKeyStateAll(keyState);
 	if (m_padIndex == static_cast<int>(PlayerIndex::Player2))
 	{
+		//2P
 		padState = GetJoypadInputState(DX_INPUT_PAD2);
 	}
 	else
 	{
+		//1P
 		padState = GetJoypadInputState(DX_INPUT_PAD1);
 	}
 	mouseState = GetMouseInput();
@@ -200,18 +202,21 @@ void Input::Update()
 		bool isPress = false;
 		for (const auto& inputInfo : keyInfo.second)
 		{
-			//キーボードのチェック
-			if (inputInfo.type == InputType::kKeyboard && keyState[inputInfo.buttonID])
+			if(m_padIndex == static_cast<int>(PlayerIndex::Player2))
 			{
-				isPress = true;
+				//キーボードのチェック
+				if (inputInfo.type == InputType::kKeyboard && keyState[inputInfo.buttonID])
+				{
+					isPress = true;
+				}
+				//マウスのチェック
+				if (inputInfo.type == InputType::kMouse && mouseState & inputInfo.buttonID)
+				{
+					isPress = true;
+				}
 			}
 			//パッドのチェック
 			if (inputInfo.type == InputType::kPad && padState & inputInfo.buttonID)
-			{
-				isPress = true;
-			}
-			//マウスのチェック
-			if (inputInfo.type == InputType::kMouse && mouseState & inputInfo.buttonID)
 			{
 				isPress = true;
 			}

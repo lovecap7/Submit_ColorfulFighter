@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u4E95\u4E0A\u3000\u604B\\Documents\\GitHub\\ColorfulFighter_Completion\\Projects\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\\u4E95\u4E0A\u3000\u604B\\Documents\\GitHub\\Submit_ColorfulFighter\\Projects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C355A5C2-E5C3-4229-B3DB-500A4CA4FD6A}|ColorfulFighter2\\ColorfulFighter2.vcxproj|C:\\Users\\\u4E95\u4E0A\u3000\u604B\\Documents\\GitHub\\Submit_ColorfulFighter\\Projects\\ColorfulFighter2\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C355A5C2-E5C3-4229-B3DB-500A4CA4FD6A}|ColorfulFighter2\\ColorfulFighter2.vcxproj|solutionrelative:ColorfulFighter2\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Input.cpp",
+              "DocumentMoniker": "C:\\Users\\\u4E95\u4E0A\u3000\u604B\\Documents\\GitHub\\Submit_ColorfulFighter\\Projects\\ColorfulFighter2\\Input.cpp",
+              "RelativeDocumentMoniker": "ColorfulFighter2\\Input.cpp",
+              "ToolTip": "C:\\Users\\\u4E95\u4E0A\u3000\u604B\\Documents\\GitHub\\Submit_ColorfulFighter\\Projects\\ColorfulFighter2\\Input.cpp",
+              "RelativeToolTip": "ColorfulFighter2\\Input.cpp",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAANoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-12T03:25:11.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
