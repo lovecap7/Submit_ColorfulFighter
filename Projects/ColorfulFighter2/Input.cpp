@@ -202,7 +202,8 @@ void Input::Update()
 		bool isPress = false;
 		for (const auto& inputInfo : keyInfo.second)
 		{
-			if(m_padIndex == static_cast<int>(PlayerIndex::Player2))
+			//2Pのみキーボード対応
+			if (m_padIndex == static_cast<int>(PlayerIndex::Player2))
 			{
 				//キーボードのチェック
 				if (inputInfo.type == InputType::kKeyboard && keyState[inputInfo.buttonID])
